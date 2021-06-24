@@ -20,8 +20,8 @@ class Stone{
         translate(pos.x, pos.y);
         rotate(angle);
         strokeWeight(3);
-        stroke('white')
-        fill('orange')
+        stroke('black')
+        fill('red')
         rectMode(CENTER)
         rect(0, 0, this.width, this.height);
         pop();
